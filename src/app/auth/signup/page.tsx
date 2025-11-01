@@ -105,9 +105,9 @@ export default function SignUpPage() {
         options: {
           data: {
             name: formData.name,
-            // role: UserRoles.USER, // Default role for new signups
+            role: UserRoles.USER, // Default role for new signups
             // role: UserRoles.SUB_ADMIN,
-            role: UserRoles.ADMIN,
+            //role: UserRoles.ADMIN,
           },
         },
       });
